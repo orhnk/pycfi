@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bs4cfi"
+version = "0.1.0"
+description = ""
+authors = ["orhnk <utfeightt@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bs4 = "^0.0.2"
+lxml = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
